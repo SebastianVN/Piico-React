@@ -5,14 +5,13 @@ import {
     Route,
     Link
   } from "react-router-dom";
-import logo from'./images/icon/iconoPiico.png';
 
 function MenuLateral (){
         return (
-            <div className="sidebar-menu"> 
+            <div className="sidebar-menu">
             <div className="sidebar-header">
                 <div className="logo">
-                    <a href="index3.html"><img src={logo} alt="logo"/></a>
+                    <a href="index3.html"><img src="assets/images/icon/iconoPiico.png" alt="logo"/></a>
                     <h3 className="text-white">PIICO</h3>
                     <h5 className="text-white">Cloud</h5>
                 </div>
